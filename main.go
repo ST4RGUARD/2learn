@@ -21,12 +21,12 @@ type Task struct {
 type Category struct {
 	Name   string
 	Tasks  []Task
-	SortBy string // "priority", "completed", or ""
+	SortBy string
 }
 
 var categories []Category
 
-const dataFile = "data.txt"
+const dataFile = "/Users/jarjohns/git/2learn/data.txt"
 
 func main() {
 	loadData()
@@ -106,15 +106,28 @@ func renderUI() {
 	fmt.Print("\033[H\033[2J") // Clear screen
 
 	fmt.Println("2learn - What to Learn")
-	fmt.Println(strings.Repeat("=", 90))
+	fmt.Println(colorText(strings.Repeat("=", 90), cyan))
 
 	for _, cat := range categories {
-		fmt.Printf("\n%s  [Sort: %s]\n", cat.Name, cat.SortBy)
-		fmt.Println(strings.Repeat("-", 90))
-		fmt.Printf("%-12s | %-30s | %-3s | %-30s | %s\n", "Name", "URL", "Pr", "Note", "✓")
-		fmt.Println(strings.Repeat("-", 90))
+		fmt.Printf("\n%s  [Sort: %s]\n", colorText(cat.Name, yellow), cat.SortBy)
+		fmt.Println(colorText(strings.Repeat("-", 90), cyan))
 
-		// Sort if needed
+		// Column headers in magenta, separators in cyan
+		fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
+			colorText(fmt.Sprintf("%-12s", "Name"), magenta),
+			colorText("|", cyan),
+			colorText(fmt.Sprintf("%-30s", "URL"), magenta),
+			colorText("|", cyan),
+			colorText(fmt.Sprintf("%-3s", "Pr"), magenta),
+			colorText("|", cyan),
+			colorText(fmt.Sprintf("%-30s", "Note"), magenta),
+			colorText("|", cyan),
+			colorText("✓", magenta),
+		)
+
+		fmt.Println(colorText(strings.Repeat("-", 90), cyan))
+
+		// Sort tasks if needed
 		switch cat.SortBy {
 		case "priority":
 			sort.Slice(cat.Tasks, func(i, j int) bool {
@@ -130,22 +143,48 @@ func renderUI() {
 			check := "[ ]"
 			name := t.Name
 			note := t.Note
+			nameDisplay := fmt.Sprintf("%-12s", t.Name)
+			noteDisplay := fmt.Sprintf("%-30s", t.Note)
+
 			if t.Completed {
 				check = colorText("[✔]", green)
-				name = colorText(name, green)
-				note = colorText(note, green)
+				name = colorText(nameDisplay, green)
+				note = colorText(noteDisplay, green)
+			} else {
+				name = colorText(nameDisplay, white)
+				note = colorText(noteDisplay, white)
 			}
 
-			prStr := strconv.Itoa(t.Priority)
+			// Fixed-width, colored priority
+			prStrRaw := fmt.Sprintf("%-3s", strconv.Itoa(t.Priority))
+			prStr := prStrRaw
 			if t.Priority <= 2 {
-				prStr = colorText(prStr, red)
+				prStr = colorText(prStrRaw, red)
 			}
 
-			url := hyperlink(t.URL, t.URL)
-			fmt.Printf("%-12s | %-30s | %-3s | %-30s | %s\n", name, url, prStr, note, check)
+			// Truncate long URLs for display, keep full link
+			displayText := t.URL
+			if len(displayText) > 27 {
+				displayText = displayText[:27] + "..."
+			}
+			displayText = fmt.Sprintf("%-30s", displayText)
+			url := colorText(hyperlink(displayText, t.URL), white)
+
+			// Print the row
+			fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
+				name,
+				colorText("|", cyan),
+				url,
+				colorText("|", cyan),
+				prStr,
+				colorText("|", cyan),
+				note,
+				colorText("|", cyan),
+				check,
+			)
 		}
 	}
-	fmt.Println("\n" + strings.Repeat("=", 90))
+	fmt.Println("\n" + colorText(strings.Repeat("=", 90), cyan))
 }
 
 func readLine() string {
@@ -187,9 +226,14 @@ func loadData() {
 // ----- Coloring & Hyperlink helpers -----
 
 const (
-	reset = "\033[0m"
-	green = "\033[32m"
-	red   = "\033[31m"
+	reset   = "\033[0m"
+	red     = "\033[31m"
+	green   = "\033[32m"
+	yellow  = "\033[33m"
+	blue    = "\033[34m"
+	magenta = "\033[35m"
+	cyan    = "\033[36m"
+	white   = "\033[37m"
 )
 
 func colorText(text, color string) string {
