@@ -1,12 +1,230 @@
 [
   {
+    "Name": "ml",
+    "Tasks": [
+      {
+        "Name": "ml-stanford",
+        "URL": "https://www.coursera.org/specializations/machine-learning-introduction",
+        "Priority": 5,
+        "Note": "stanford ML course",
+        "Completed": true
+      }
+    ],
+    "SortBy": ""
+  },
+  {
     "Name": "coding",
     "Tasks": [
       {
+        "Name": "go-uci",
+        "URL": "https://www.coursera.org/specializations/google-golang",
+        "Priority": 5,
+        "Note": "programming go course",
+        "Completed": true
+      },
+      {
+        "Name": "rust-duke",
+        "URL": "https://www.coursera.org/specializations/rust-programming",
+        "Priority": 1,
+        "Note": "duke rust course",
+        "Completed": false
+      },
+      {
+        "Name": "react-meta",
+        "URL": "https://www.coursera.org/specializations/meta-react-specialization",
+        "Priority": 6,
+        "Note": "meta react specialization",
+        "Completed": false
+      },
+      {
+        "Name": "meta backend",
+        "URL": "https://www.coursera.org/professional-certificates/meta-back-end-developer",
+        "Priority": 4,
+        "Note": "professional cert",
+        "Completed": false
+      },
+      {
+        "Name": "c++",
+        "URL": "https://www.coursera.org/specializations/cplusplusunrealgamedevelopment",
+        "Priority": 3,
+        "Note": "game dev",
+        "Completed": false
+      },
+      {
+        "Name": "c#",
+        "URL": "https://www.coursera.org/specializations/programming-unity-game-development",
+        "Priority": 3,
+        "Note": "game dev",
+        "Completed": false
+      },
+      {
+        "Name": "c++",
+        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
+        "Priority": 4,
+        "Note": "c++ programming oop",
+        "Completed": false
+      },
+      {
         "Name": "c",
-        "URL": "c.github.com",
+        "URL": "https://www.coursera.org/specializations/c-programming",
+        "Priority": 4,
+        "Note": "intro c duke",
+        "Completed": false
+      },
+      {
+        "Name": "c everybody",
+        "URL": "https://www.coursera.org/specializations/c-programming-for-everybody",
+        "Priority": 5,
+        "Note": "michigan specialization",
+        "Completed": false
+      },
+      {
+        "Name": "gpu",
+        "URL": "https://www.coursera.org/specializations/gpu-programming",
+        "Priority": 4,
+        "Note": "gpu programming",
+        "Completed": false
+      }
+    ],
+    "SortBy": ""
+  },
+  {
+    "Name": "math",
+    "Tasks": [
+      {
+        "Name": "algebra-jh",
+        "URL": "https://www.coursera.org/specializations/algebra-elementary-to-advanced",
+        "Priority": 5,
+        "Note": "johns hopkins algebra coursera",
+        "Completed": true
+      },
+      {
+        "Name": "discrete",
+        "URL": "https://www.coursera.org/specializations/discrete-mathematics",
+        "Priority": 3,
+        "Note": "for cs specialization",
+        "Completed": false
+      },
+      {
+        "Name": "int calc",
+        "URL": "https://www.coursera.org/specializations/integral-calculus-data-modeling",
+        "Priority": 6,
+        "Note": "jh math specialization",
+        "Completed": false
+      },
+      {
+        "Name": "statistics",
+        "URL": "https://www.coursera.org/specializations/advanced-statistics-data-science",
+        "Priority": 3,
+        "Note": "adv stat for data science jh",
+        "Completed": false
+      },
+      {
+        "Name": "math 4 eng",
+        "URL": "https://www.coursera.org/specializations/mathematics-engineers",
+        "Priority": 6,
+        "Note": "difficult wait until others are completed first",
+        "Completed": false
+      },
+      {
+        "Name": "linear alg",
+        "URL": "https://www.coursera.org/specializations/linear-algebra-elementary-to-advanced",
+        "Priority": 5,
+        "Note": "jh linear algebra",
+        "Completed": false
+      },
+      {
+        "Name": "precalc",
+        "URL": "https://www.coursera.org/specializations/precalculus-data-modelling",
+        "Priority": 6,
+        "Note": "jh precalc data and modeling",
+        "Completed": false
+      },
+      {
+        "Name": "diff calc",
+        "URL": "https://www.coursera.org/specializations/differential-calculus-data-modeling",
+        "Priority": 6,
+        "Note": "diff calc jh",
+        "Completed": false
+      }
+    ],
+    "SortBy": ""
+  },
+  {
+    "Name": "ai",
+    "Tasks": [
+      {
+        "Name": "ibm gen-ai",
+        "URL": "https://www.coursera.org/specializations/ibm-generative-ai-engineering",
+        "Priority": 5,
+        "Note": "ibm professional cert",
+        "Completed": false
+      }
+    ],
+    "SortBy": ""
+  },
+  {
+    "Name": "algorithms",
+    "Tasks": [
+      {
+        "Name": "DS \u0026 algo",
+        "URL": "https://www.coursera.org/specializations/data-structures-algorithms",
+        "Priority": 5,
+        "Note": "ds \u0026 algo spec ucsd",
+        "Completed": false
+      },
+      {
+        "Name": "foundations",
+        "URL": "https://www.coursera.org/specializations/boulder-data-structures-algorithms",
+        "Priority": 4,
+        "Note": "foundations of ds and algo",
+        "Completed": false
+      }
+    ],
+    "SortBy": ""
+  },
+  {
+    "Name": "security",
+    "Tasks": [
+      {
+        "Name": "adv design",
+        "URL": "https://www.coursera.org/specializations/advanced-system-security-design",
+        "Priority": 4,
+        "Note": "advanced system sec design",
+        "Completed": false
+      },
+      {
+        "Name": "app crypt",
+        "URL": "https://www.coursera.org/specializations/applied-crypto",
+        "Priority": 3,
+        "Note": "security and cs",
+        "Completed": false
+      },
+      {
+        "Name": "forensics",
+        "URL": "https://www.coursera.org/specializations/computerforensics",
         "Priority": 2,
-        "Note": "test this out",
+        "Note": "coursera security course",
+        "Completed": false
+      }
+    ],
+    "SortBy": ""
+  },
+  {
+    "Name": "random",
+    "Tasks": [
+      {
+        "Name": "iot",
+        "URL": "https://www.coursera.org/specializations/uiuc-iot",
+        "Priority": 5,
+        "Note": "hands on iot",
+        "Completed": false
+      },
+      {
+        "Name": "embed linux",
+        "URL": "https://www.coursera.org/specializations/advanced-embedded-linux-development",
+        "Priority": 2,
+        "Note": "looks fun def take this",
         "Completed": false
       }
     ],
