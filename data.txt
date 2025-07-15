@@ -23,20 +23,6 @@
         "Completed": false
       },
       {
-        "Name": "c++",
-        "URL": "https://www.coursera.org/specializations/cplusplusunrealgamedevelopment",
-        "Priority": 3,
-        "Note": "game dev",
-        "Completed": false
-      },
-      {
-        "Name": "c#",
-        "URL": "https://www.coursera.org/specializations/programming-unity-game-development",
-        "Priority": 3,
-        "Note": "game dev",
-        "Completed": false
-      },
-      {
         "Name": "meta backend",
         "URL": "https://www.coursera.org/professional-certificates/meta-back-end-developer",
         "Priority": 4,
@@ -44,24 +30,10 @@
         "Completed": false
       },
       {
-        "Name": "c++",
-        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
+        "Name": "rust masterclass",
+        "URL": "https://www.coursera.org/specializations/packt-rust-programming-masterclass-from-beginner-to-expert",
         "Priority": 4,
-        "Note": "c++ programming oop",
-        "Completed": false
-      },
-      {
-        "Name": "c",
-        "URL": "https://www.coursera.org/specializations/c-programming",
-        "Priority": 4,
-        "Note": "intro c duke",
-        "Completed": false
-      },
-      {
-        "Name": "gpu",
-        "URL": "https://www.coursera.org/specializations/gpu-programming",
-        "Priority": 4,
-        "Note": "gpu programming",
+        "Note": "maybe decent maybe not",
         "Completed": false
       },
       {
@@ -79,10 +51,52 @@
         "Completed": false
       },
       {
+        "Name": "c linux",
+        "URL": "https://www.coursera.org/specializations/c-programming-linux",
+        "Priority": 5,
+        "Note": "c in linux dartmouth",
+        "Completed": false
+      },
+      {
         "Name": "react-meta",
         "URL": "https://www.coursera.org/specializations/meta-react-specialization",
         "Priority": 6,
         "Note": "meta react specialization",
+        "Completed": false
+      },
+      {
+        "Name": "c",
+        "URL": "https://www.coursera.org/specializations/c-programming",
+        "Priority": 7,
+        "Note": "intro c duke",
+        "Completed": false
+      },
+      {
+        "Name": "c++",
+        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
+        "Priority": 7,
+        "Note": "c++ programming oop",
+        "Completed": false
+      },
+      {
+        "Name": "c++",
+        "URL": "https://www.coursera.org/specializations/cplusplusunrealgamedevelopment",
+        "Priority": 7,
+        "Note": "game dev",
+        "Completed": false
+      },
+      {
+        "Name": "c#",
+        "URL": "https://www.coursera.org/specializations/programming-unity-game-development",
+        "Priority": 8,
+        "Note": "game dev",
+        "Completed": false
+      },
+      {
+        "Name": "gpu",
+        "URL": "https://www.coursera.org/specializations/gpu-programming",
+        "Priority": 9,
+        "Note": "gpu programming",
         "Completed": false
       }
     ],
