@@ -16,31 +16,10 @@
     "Name": "coding",
     "Tasks": [
       {
-        "Name": "go-uci",
-        "URL": "https://www.coursera.org/specializations/google-golang",
-        "Priority": 5,
-        "Note": "programming go course",
-        "Completed": true
-      },
-      {
         "Name": "rust-duke",
         "URL": "https://www.coursera.org/specializations/rust-programming",
         "Priority": 1,
         "Note": "duke rust course",
-        "Completed": false
-      },
-      {
-        "Name": "react-meta",
-        "URL": "https://www.coursera.org/specializations/meta-react-specialization",
-        "Priority": 6,
-        "Note": "meta react specialization",
-        "Completed": false
-      },
-      {
-        "Name": "meta backend",
-        "URL": "https://www.coursera.org/professional-certificates/meta-back-end-developer",
-        "Priority": 4,
-        "Note": "professional cert",
         "Completed": false
       },
       {
@@ -58,6 +37,13 @@
         "Completed": false
       },
       {
+        "Name": "meta backend",
+        "URL": "https://www.coursera.org/professional-certificates/meta-back-end-developer",
+        "Priority": 4,
+        "Note": "professional cert",
+        "Completed": false
+      },
+      {
         "Name": "c++",
         "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
         "Priority": 4,
@@ -72,6 +58,20 @@
         "Completed": false
       },
       {
+        "Name": "gpu",
+        "URL": "https://www.coursera.org/specializations/gpu-programming",
+        "Priority": 4,
+        "Note": "gpu programming",
+        "Completed": false
+      },
+      {
+        "Name": "go-uci",
+        "URL": "https://www.coursera.org/specializations/google-golang",
+        "Priority": 5,
+        "Note": "programming go course",
+        "Completed": true
+      },
+      {
         "Name": "c everybody",
         "URL": "https://www.coursera.org/specializations/c-programming-for-everybody",
         "Priority": 5,
@@ -79,37 +79,23 @@
         "Completed": false
       },
       {
-        "Name": "gpu",
-        "URL": "https://www.coursera.org/specializations/gpu-programming",
-        "Priority": 4,
-        "Note": "gpu programming",
+        "Name": "react-meta",
+        "URL": "https://www.coursera.org/specializations/meta-react-specialization",
+        "Priority": 6,
+        "Note": "meta react specialization",
         "Completed": false
       }
     ],
-    "SortBy": ""
+    "SortBy": "priority"
   },
   {
     "Name": "math",
     "Tasks": [
       {
-        "Name": "algebra-jh",
-        "URL": "https://www.coursera.org/specializations/algebra-elementary-to-advanced",
-        "Priority": 5,
-        "Note": "johns hopkins algebra coursera",
-        "Completed": true
-      },
-      {
         "Name": "discrete",
         "URL": "https://www.coursera.org/specializations/discrete-mathematics",
         "Priority": 3,
         "Note": "for cs specialization",
-        "Completed": false
-      },
-      {
-        "Name": "int calc",
-        "URL": "https://www.coursera.org/specializations/integral-calculus-data-modeling",
-        "Priority": 6,
-        "Note": "jh math specialization",
         "Completed": false
       },
       {
@@ -120,17 +106,31 @@
         "Completed": false
       },
       {
-        "Name": "math 4 eng",
-        "URL": "https://www.coursera.org/specializations/mathematics-engineers",
-        "Priority": 6,
-        "Note": "difficult wait until others are completed first",
-        "Completed": false
+        "Name": "algebra-jh",
+        "URL": "https://www.coursera.org/specializations/algebra-elementary-to-advanced",
+        "Priority": 5,
+        "Note": "johns hopkins algebra coursera",
+        "Completed": true
       },
       {
         "Name": "linear alg",
         "URL": "https://www.coursera.org/specializations/linear-algebra-elementary-to-advanced",
         "Priority": 5,
         "Note": "jh linear algebra",
+        "Completed": false
+      },
+      {
+        "Name": "int calc",
+        "URL": "https://www.coursera.org/specializations/integral-calculus-data-modeling",
+        "Priority": 6,
+        "Note": "jh math specialization",
+        "Completed": false
+      },
+      {
+        "Name": "math 4 eng",
+        "URL": "https://www.coursera.org/specializations/mathematics-engineers",
+        "Priority": 6,
+        "Note": "difficult wait until others are completed first",
         "Completed": false
       },
       {
@@ -148,7 +148,7 @@
         "Completed": false
       }
     ],
-    "SortBy": ""
+    "SortBy": "priority"
   },
   {
     "Name": "ai",

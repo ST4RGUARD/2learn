@@ -101,59 +101,7 @@ func renderUI() {
 		// Print each task with colors
 
 		for _, t := range cat.Tasks {
-			check := "[ ]"
-			if t.Completed {
-				check = colorText("[✔]", green)
-			}
-
-			// Truncate name and color green if completed
-			nameDisplay := t.Name
-			if len(nameDisplay) > 11 {
-				nameDisplay = nameDisplay[:9] + "..."
-			}
-			nameColor := white
-			if t.Completed {
-				nameColor = green
-			}
-			name := colorText(fmt.Sprintf("%-12s", nameDisplay), nameColor)
-
-			// Truncate and hyperlink URL, colored blue
-			displayURL := t.URL
-			if len(displayURL) > 27 {
-				displayURL = displayURL[:27] + "..."
-			}
-			displayURL = fmt.Sprintf("%-30s", displayURL)
-			url := colorText(hyperlink(displayURL, t.URL), blue)
-
-			noteLines := wrapText(t.Note, 30)
-			for i, line := range noteLines {
-				noteColor := white
-				if t.Completed {
-					noteColor = green
-				}
-				noteFormatted := colorText(fmt.Sprintf("%-30s", line), noteColor)
-
-				if i == 0 {
-					fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
-						name,
-						colorText("|", cyan),
-						url,
-						colorText("|", cyan),
-						colorPriority(t.Priority),
-						colorText("|", cyan),
-						noteFormatted,
-						colorText("|", cyan),
-						check,
-					)
-				} else {
-					fmt.Printf("%-12s %s %-30s %s %-3s %s %s %s %s\n",
-						strings.Repeat(" ", 12), colorText("|", cyan),
-						strings.Repeat(" ", 30), colorText("|", cyan),
-						strings.Repeat(" ", 3), colorText("|", cyan),
-						noteFormatted, colorText("|", cyan), "",
-					)
-				}
-			}
+			displayTaskRow(t)
 		}
 
 	}
@@ -232,7 +180,7 @@ func wrapNote(note string, width int) []string {
 
 	for _, word := range words {
 		if len(line)+len(word)+1 > width {
-			lines = append(lines, padRight(line, width))
+			lines = append(lines, padRight(line, width-1))
 			line = word
 		} else {
 			if line != "" {
@@ -242,7 +190,7 @@ func wrapNote(note string, width int) []string {
 		}
 	}
 	if line != "" {
-		lines = append(lines, padRight(line, width))
+		lines = append(lines, padRight(line, width-1))
 	}
 
 	if len(lines) == 0 {
@@ -268,52 +216,58 @@ func displayTaskRow(t Task) {
 		check = colorText("[✔]", green)
 	}
 
+	// Truncate and color name
 	name := truncateWithDots(t.Name, 12)
 	nameColor := white
 	if t.Completed {
 		nameColor = green
 	}
-	nameColored := colorText(name, nameColor)
+	nameColored := colorText(fmt.Sprintf("%-12s", name), nameColor)
 
-	url := truncateWithDots(t.URL, 30)
-	urlColored := colorText(hyperlink(fmt.Sprintf("%-30s", url), t.URL), white)
+	// Truncate, pad, and hyperlink URL
+	displayURL := truncateWithDots(t.URL, 27)
+	displayURL = fmt.Sprintf("%-30s", displayURL)
+	urlColored := colorText(hyperlink(displayURL, t.URL), dkgrey)
 
-	pr := fmt.Sprintf("%-3s", strconv.Itoa(t.Priority))
-	if t.Priority <= 2 {
-		pr = colorText(pr, red)
-	}
+	// Use colorPriority (with padding)
+	prColored := colorPriority(t.Priority)
 
+	// Wrap note using wrapNote
 	noteLines := wrapNote(t.Note, 30)
 	for i, line := range noteLines {
-		var nameCell, urlCell, prCell, noteCell, checkCell string
-		if i == 0 {
-			nameCell = nameColored
-			urlCell = urlColored
-			prCell = pr
-			noteCell = colorText(padRight(line, 30), white)
-			if t.Completed {
-				noteCell = colorText(padRight(line, 30), green)
-			}
-			checkCell = check
-		} else {
-			nameCell = padRight("", 12)
-			urlCell = padRight("", 30)
-			prCell = padRight("", 3)
-			noteCell = colorText(padRight(line, 30), white)
-			checkCell = ""
+		noteColor := white
+		if t.Completed {
+			noteColor = green
 		}
+		noteFormatted := colorText(fmt.Sprintf("%-30s", line), noteColor)
 
-		fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
-			nameCell,
-			colorText("|", cyan),
-			urlCell,
-			colorText("|", cyan),
-			prCell,
-			colorText("|", cyan),
-			noteCell,
-			colorText("|", cyan),
-			checkCell,
-		)
+		if i == 0 {
+			// First line: full row
+			fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
+				nameColored,
+				colorText("|", cyan),
+				urlColored,
+				colorText("|", cyan),
+				prColored,
+				colorText("|", cyan),
+				noteFormatted,
+				colorText("|", cyan),
+				check,
+			)
+		} else {
+			// Wrapped note line: blank other cells
+			fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
+				strings.Repeat(" ", 12), // Name
+				colorText("|", cyan),
+				strings.Repeat(" ", 30), // URL
+				colorText("|", cyan),
+				"  ", // Pr field, matching trailing space in `colorPriority()`
+				colorText("|", cyan),
+				noteFormatted,
+				colorText("|", cyan),
+				"",
+			)
+		}
 	}
 }
 
@@ -415,29 +369,6 @@ func selectTask(cat *Category) *Task {
 	return &cat.Tasks[ti]
 }
 
-func wrapText(text string, width int) []string {
-	words := strings.Fields(text)
-	var lines []string
-	var line string
-
-	for _, word := range words {
-		if len(line)+len(word)+1 > width {
-			lines = append(lines, line)
-			line = word
-		} else {
-			if line == "" {
-				line = word
-			} else {
-				line += " " + word
-			}
-		}
-	}
-	if line != "" {
-		lines = append(lines, line)
-	}
-	return lines
-}
-
 func readLine() string {
 	reader := bufio.NewReader(os.Stdin)
 	text, _ := reader.ReadString('\n')
@@ -474,16 +405,16 @@ func loadData() {
 }
 
 // --- ANSI Colors & Hyperlinks ---
-
 const (
 	reset   = "\033[0m"
-	red     = "\033[31m"
-	green   = "\033[32m"
-	yellow  = "\033[33m"
-	blue    = "\033[34m"
-	magenta = "\033[35m"
-	cyan    = "\033[36m"
-	white   = "\033[37m"
+	red     = "\033[38;2;255;85;85m"   // soft bright red
+	green   = "\033[38;2;80;250;123m"  // bright pastel green you liked
+	yellow  = "\033[38;2;255;184;108m" // pastel yellow
+	dkgrey  = "\033[90m"
+	blue    = "\033[38;2;139;233;253m" // bright pastel cyan/blue
+	magenta = "\033[38;2;255;121;198m" // pastel magenta
+	cyan    = "\033[38;2;139;233;253m" // same as blue (can customize)
+	white   = "\033[38;2;248;248;242m" // near white from Rosepine palette
 )
 
 func colorText(text, color string) string {
