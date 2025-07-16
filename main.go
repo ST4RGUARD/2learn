@@ -65,26 +65,23 @@ func main() {
 func renderUI() {
 	fmt.Print("\033[H\033[2J") // Clear screen
 
-	fmt.Println("2learn - What to Learn")
-	fmt.Println(colorText(strings.Repeat("=", 90), cyan))
-
 	for _, cat := range categories {
-		fmt.Printf("\n%s  [Sort: %s]\n", colorText(cat.Name, yellow), cat.SortBy)
-		fmt.Println(colorText(strings.Repeat("-", 90), cyan))
+		fmt.Printf("\n%s  [%s]\n", colorText(cat.Name, yellow), cat.SortBy)
+		fmt.Println(colorText(strings.Repeat("-", 90), blk))
 
 		// Column headers
 		fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
 			colorText(fmt.Sprintf("%-12s", "Name"), magenta),
-			colorText("|", cyan),
+			colorText("|", blk),
 			colorText(fmt.Sprintf("%-30s", "URL"), magenta),
-			colorText("|", cyan),
+			colorText("|", blk),
 			colorText(fmt.Sprintf("%-2s", "Pr"), magenta),
-			colorText("|", cyan),
+			colorText("|", blk),
 			colorText(fmt.Sprintf("%-30s", "Note"), magenta),
-			colorText("|", cyan),
+			colorText("|", blk),
 			colorText(" ✓", magenta),
 		)
-		fmt.Println(colorText(strings.Repeat("-", 90), cyan))
+		fmt.Println(colorText(strings.Repeat("-", 90), blk))
 
 		// Sort tasks if needed
 		switch cat.SortBy {
@@ -105,7 +102,7 @@ func renderUI() {
 		}
 
 	}
-	fmt.Println("\n" + colorText(strings.Repeat("=", 90), cyan))
+	fmt.Println("\n" + colorText(strings.Repeat("=", 90), blk))
 }
 
 func colorPriority(priority int) string {
@@ -245,26 +242,26 @@ func displayTaskRow(t Task) {
 			// First line: full row
 			fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
 				nameColored,
-				colorText("|", cyan),
+				colorText("|", blk),
 				urlColored,
-				colorText("|", cyan),
+				colorText("|", blk),
 				prColored,
-				colorText("|", cyan),
+				colorText("|", blk),
 				noteFormatted,
-				colorText("|", cyan),
+				colorText("|", blk),
 				check,
 			)
 		} else {
 			// Wrapped note line: blank other cells
 			fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
 				strings.Repeat(" ", 12), // Name
-				colorText("|", cyan),
+				colorText("|", blk),
 				strings.Repeat(" ", 30), // URL
-				colorText("|", cyan),
+				colorText("|", blk),
 				"  ", // Pr field, matching trailing space in `colorPriority()`
-				colorText("|", cyan),
+				colorText("|", blk),
 				noteFormatted,
-				colorText("|", cyan),
+				colorText("|", blk),
 				"",
 			)
 		}
@@ -408,9 +405,10 @@ func loadData() {
 const (
 	reset   = "\033[0m"
 	red     = "\033[38;2;255;85;85m"   // soft bright red
-	green   = "\033[38;2;80;250;123m"  // bright pastel green you liked
+	green   = "\033[38;2;80;250;123m"  // bright pastel green
 	yellow  = "\033[38;2;255;184;108m" // pastel yellow
 	dkgrey  = "\033[90m"
+	blk     = "\033[40m"
 	blue    = "\033[38;2;139;233;253m" // bright pastel cyan/blue
 	magenta = "\033[38;2;255;121;198m" // pastel magenta
 	cyan    = "\033[38;2;139;233;253m" // same as blue (can customize)

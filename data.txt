@@ -93,10 +93,31 @@
         "Completed": false
       },
       {
+        "Name": "go",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "book",
+        "Completed": false
+      },
+      {
+        "Name": "c",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "book",
+        "Completed": false
+      },
+      {
         "Name": "gpu",
         "URL": "https://www.coursera.org/specializations/gpu-programming",
         "Priority": 9,
         "Note": "gpu programming",
+        "Completed": false
+      },
+      {
+        "Name": "asm",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "book",
         "Completed": false
       }
     ],
@@ -118,13 +139,6 @@
         "Priority": 3,
         "Note": "adv stat for data science jh",
         "Completed": false
-      },
-      {
-        "Name": "algebra-jh",
-        "URL": "https://www.coursera.org/specializations/algebra-elementary-to-advanced",
-        "Priority": 5,
-        "Note": "johns hopkins algebra coursera",
-        "Completed": true
       },
       {
         "Name": "linear alg",
@@ -160,9 +174,16 @@
         "Priority": 6,
         "Note": "diff calc jh",
         "Completed": false
+      },
+      {
+        "Name": "algebra-jh",
+        "URL": "https://www.coursera.org/specializations/algebra-elementary-to-advanced",
+        "Priority": 5,
+        "Note": "johns hopkins algebra coursera",
+        "Completed": true
       }
     ],
-    "SortBy": "priority"
+    "SortBy": "completed"
   },
   {
     "Name": "ai",
@@ -193,6 +214,20 @@
         "Priority": 4,
         "Note": "foundations of ds and algo",
         "Completed": false
+      },
+      {
+        "Name": "c ds",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "book",
+        "Completed": false
+      },
+      {
+        "Name": "c++ ds",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "book",
+        "Completed": false
       }
     ],
     "SortBy": ""
@@ -220,6 +255,41 @@
         "Priority": 2,
         "Note": "coursera security course",
         "Completed": false
+      },
+      {
+        "Name": "art of mem",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "book",
+        "Completed": false
+      },
+      {
+        "Name": "rootkit",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "book",
+        "Completed": false
+      },
+      {
+        "Name": "ida pro",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "book",
+        "Completed": false
+      },
+      {
+        "Name": "reversing",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "book",
+        "Completed": false
+      },
+      {
+        "Name": "pma",
+        "URL": "NA",
+        "Priority": 7,
+        "Note": "book",
+        "Completed": false
       }
     ],
     "SortBy": ""
@@ -239,6 +309,103 @@
         "URL": "https://www.coursera.org/specializations/advanced-embedded-linux-development",
         "Priority": 2,
         "Note": "looks fun def take this",
+        "Completed": false
+      }
+    ],
+    "SortBy": ""
+  },
+  {
+    "Name": "graceful.dev",
+    "Tasks": [
+      {
+        "Name": "flawless",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 3,
+        "Note": "first ruby course on site",
+        "Completed": false
+      },
+      {
+        "Name": "scintilating",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 4,
+        "Note": "cont",
+        "Completed": false
+      },
+      {
+        "Name": "strung",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 4,
+        "Note": "cont",
+        "Completed": false
+      },
+      {
+        "Name": "crytaline",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 3,
+        "Note": "cont",
+        "Completed": false
+      },
+      {
+        "Name": "collected",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 5,
+        "Note": "cont",
+        "Completed": false
+      },
+      {
+        "Name": "modular",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 5,
+        "Note": "cont",
+        "Completed": false
+      },
+      {
+        "Name": "functional",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 6,
+        "Note": "cont",
+        "Completed": false
+      },
+      {
+        "Name": "inspecting",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 6,
+        "Note": "cont",
+        "Completed": false
+      },
+      {
+        "Name": "app",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 7,
+        "Note": "app dev 4 courses",
+        "Completed": false
+      },
+      {
+        "Name": "web",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 7,
+        "Note": "web",
+        "Completed": false
+      },
+      {
+        "Name": "tools",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 8,
+        "Note": "cont",
+        "Completed": false
+      },
+      {
+        "Name": "mastery",
+        "URL": "https://graceful.dev/garden-tours/",
+        "Priority": 8,
+        "Note": "cont",
+        "Completed": false
+      },
+      {
+        "Name": "GARDEN PATHS",
+        "URL": "https://graceful.dev/garden-paths/",
+        "Priority": 9,
+        "Note": "after tour is complete",
         "Completed": false
       }
     ],
