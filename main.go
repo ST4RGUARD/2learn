@@ -24,15 +24,22 @@ type Category struct {
 	SortBy string
 }
 
-var categories []Category
+var (
+	categories []Category
+	catFolded  []bool
+)
 
 const dataFile = "/Users/jarjohns/git/2learn/data.txt"
 
 func main() {
 	loadData()
+	catFolded = make([]bool, len(categories))
+	for i := range catFolded {
+		catFolded[i] = true
+	}
 
 	for {
-		renderUI()
+		displayCategories()
 		fmt.Println(colorText("\nOptions:", green))
 		fmt.Println(colorText("[1] Add Category", green))
 		fmt.Println(colorText("[2] Add Task", green))
@@ -41,67 +48,97 @@ func main() {
 		fmt.Println(colorText("[5] View/Edit Task", green))
 		fmt.Print(colorText("Choose: ", green))
 
-		switch readLine() {
-		case "1":
+		input := readLine()
+		switch {
+		case input == "1":
 			fmt.Print("Enter new category name: ")
 			name := readLine()
 			categories = append(categories, Category{Name: name})
-		case "2":
+			catFolded = append(catFolded, true)
+		case input == "2":
 			addTask()
-		case "3":
+		case input == "3":
 			sortCategory()
-		case "4":
+		case input == "4":
 			saveData()
 			fmt.Println("Data saved.")
 			return
-		case "5":
+		case input == "5":
 			viewOrEditTask()
+		case strings.HasPrefix(input, "f "):
+			idxStr := strings.TrimSpace(input[2:])
+			idx, err := strconv.Atoi(idxStr)
+			if err == nil && idx >= 0 && idx < len(categories) {
+				catFolded[idx] = !catFolded[idx]
+			} else {
+				fmt.Println("Invalid category index")
+			}
 		default:
 			fmt.Println("Invalid option.")
 		}
 	}
 }
 
-func renderUI() {
+func displayCategories() {
+	for i, cat := range categories {
+		if catFolded[i] {
+			fmt.Printf(
+				"\n%s: %s [%s]\n",
+				colorText(fmt.Sprintf("%d", i), red),
+				colorText(cat.Name, yellow),
+				cat.SortBy,
+			)
+			fmt.Println(colorText(strings.Repeat("-", 90), blk))
+		} else {
+			fmt.Printf("%d: ", i)
+			renderCat(cat, i)
+		}
+	}
+}
+
+func renderCat(cat Category, i int) {
 	fmt.Print("\033[H\033[2J") // Clear screen
 
-	for _, cat := range categories {
-		fmt.Printf("\n%s  [%s]\n", colorText(cat.Name, yellow), cat.SortBy)
-		fmt.Println(colorText(strings.Repeat("-", 90), blk))
+	fmt.Printf(
+		"\n%s: %s [%s]\n",
+		colorText(fmt.Sprintf("%d", i), red),
+		colorText(cat.Name, yellow),
+		cat.SortBy,
+	)
+	fmt.Println(colorText(strings.Repeat("-", 90), blk))
 
-		// Column headers
-		fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
-			colorText(fmt.Sprintf("%-12s", "Name"), magenta),
-			colorText("|", blk),
-			colorText(fmt.Sprintf("%-30s", "URL"), magenta),
-			colorText("|", blk),
-			colorText(fmt.Sprintf("%-2s", "Pr"), magenta),
-			colorText("|", blk),
-			colorText(fmt.Sprintf("%-30s", "Note"), magenta),
-			colorText("|", blk),
-			colorText(" ✓", magenta),
-		)
-		fmt.Println(colorText(strings.Repeat("-", 90), blk))
+	// Column headers
+	fmt.Printf("%s %s %s %s %s %s %s %s %s\n",
+		colorText(fmt.Sprintf("%-12s", "Name"), magenta),
+		colorText("|", blk),
+		colorText(fmt.Sprintf("%-30s", "URL"), magenta),
+		colorText("|", blk),
+		colorText(fmt.Sprintf("%-2s", "Pr"), magenta),
+		colorText("|", blk),
+		colorText(fmt.Sprintf("%-30s", "Note"), magenta),
+		colorText("|", blk),
+		colorText(" ✓", magenta),
+	)
+	fmt.Println(colorText(strings.Repeat("-", 90), blk))
 
-		// Sort tasks if needed
-		switch cat.SortBy {
-		case "priority":
-			sort.Slice(cat.Tasks, func(i, j int) bool {
-				return cat.Tasks[i].Priority < cat.Tasks[j].Priority
-			})
-		case "completed":
-			sort.Slice(cat.Tasks, func(i, j int) bool {
-				return !cat.Tasks[i].Completed && cat.Tasks[j].Completed
-			})
-		}
-
-		// Print each task with colors
-
-		for _, t := range cat.Tasks {
-			displayTaskRow(t)
-		}
-
+	// Sort tasks if needed
+	switch cat.SortBy {
+	case "priority":
+		sort.Slice(cat.Tasks, func(i, j int) bool {
+			return cat.Tasks[i].Priority < cat.Tasks[j].Priority
+		})
+	case "completed":
+		sort.Slice(cat.Tasks, func(i, j int) bool {
+			return !cat.Tasks[i].Completed && cat.Tasks[j].Completed
+		})
 	}
+
+	// Print each task with colors
+
+	for _, t := range cat.Tasks {
+		displayTaskRow(t)
+	}
+
 	fmt.Println("\n" + colorText(strings.Repeat("=", 90), blk))
 }
 
