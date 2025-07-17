@@ -8,6 +8,13 @@
         "Priority": 5,
         "Note": "stanford ML course",
         "Completed": true
+      },
+      {
+        "Name": "create llm python",
+        "URL": "youtube.com",
+        "Priority": 5,
+        "Note": "freecodecamp",
+        "Completed": false
       }
     ],
     "SortBy": ""
@@ -20,6 +27,13 @@
         "URL": "https://www.coursera.org/specializations/rust-programming",
         "Priority": 1,
         "Note": "duke rust course",
+        "Completed": false
+      },
+      {
+        "Name": "learn rust",
+        "URL": "https://www.udemy.com/course/learn-to-code-with-rust/",
+        "Priority": 4,
+        "Note": "udemy",
         "Completed": false
       },
       {
@@ -37,6 +51,55 @@
         "Completed": false
       },
       {
+        "Name": "rust marathon",
+        "URL": "youtube.com",
+        "Priority": 4,
+        "Note": "Singh course",
+        "Completed": false
+      },
+      {
+        "Name": "go programming",
+        "URL": "youtube.com",
+        "Priority": 4,
+        "Note": "freecodecamp full go course",
+        "Completed": false
+      },
+      {
+        "Name": "learn go",
+        "URL": "youtube.com",
+        "Priority": 4,
+        "Note": "fcc course",
+        "Completed": false
+      },
+      {
+        "Name": "learn rust",
+        "URL": "youtube.com",
+        "Priority": 4,
+        "Note": "freecodecamp full rust course",
+        "Completed": false
+      },
+      {
+        "Name": "go web dev",
+        "URL": "udemy.com",
+        "Priority": 5,
+        "Note": "udemy todd mcleod",
+        "Completed": false
+      },
+      {
+        "Name": "adv c++",
+        "URL": "udemy.com",
+        "Priority": 5,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "mastering go",
+        "URL": "udemy.com",
+        "Priority": 5,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
         "Name": "go-uci",
         "URL": "https://www.coursera.org/specializations/google-golang",
         "Priority": 5,
@@ -44,10 +107,24 @@
         "Completed": true
       },
       {
+        "Name": "go dev guide",
+        "URL": "udemy.com",
+        "Priority": 5,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
         "Name": "c everybody",
         "URL": "https://www.coursera.org/specializations/c-programming-for-everybody",
         "Priority": 5,
         "Note": "michigan specialization",
+        "Completed": false
+      },
+      {
+        "Name": "c++ beg-adv",
+        "URL": "youtube.com",
+        "Priority": 5,
+        "Note": "freecodecamp course",
         "Completed": false
       },
       {
@@ -58,10 +135,87 @@
         "Completed": false
       },
       {
+        "Name": "learn c",
+        "URL": "youtube.com",
+        "Priority": 5,
+        "Note": "fcc course",
+        "Completed": false
+      },
+      {
+        "Name": "c++ beg to exp",
+        "URL": "udemy.com",
+        "Priority": 5,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
         "Name": "react-meta",
         "URL": "https://www.coursera.org/specializations/meta-react-specialization",
         "Priority": 6,
         "Note": "meta react specialization",
+        "Completed": false
+      },
+      {
+        "Name": "c++ files",
+        "URL": "udemy.com",
+        "Priority": 6,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "python for everybody",
+        "URL": "youtube.com",
+        "Priority": 6,
+        "Note": "freecodecamp",
+        "Completed": false
+      },
+      {
+        "Name": "adv c++",
+        "URL": "udemy.com",
+        "Priority": 6,
+        "Note": "udem",
+        "Completed": false
+      },
+      {
+        "Name": "crust of rust",
+        "URL": "youtube.com",
+        "Priority": 6,
+        "Note": "complete after other rust courses",
+        "Completed": false
+      },
+      {
+        "Name": "adv ruby",
+        "URL": "https://www.udemy.com/course/expert-ruby-programming-ten-steps-to-mastery/learn/lecture/54507#overview",
+        "Priority": 6,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "c step by step",
+        "URL": "udemy.com",
+        "Priority": 6,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "guide to asm",
+        "URL": "NA",
+        "Priority": 7,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "c++",
+        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
+        "Priority": 7,
+        "Note": "c++ programming oop",
+        "Completed": false
+      },
+      {
+        "Name": "c for beg",
+        "URL": "udemy.com",
+        "Priority": 7,
+        "Note": "udemy",
         "Completed": false
       },
       {
@@ -73,23 +227,65 @@
       },
       {
         "Name": "c++",
-        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
-        "Priority": 7,
-        "Note": "c++ programming oop",
-        "Completed": false
-      },
-      {
-        "Name": "c++",
         "URL": "https://www.coursera.org/specializations/cplusplusunrealgamedevelopment",
         "Priority": 7,
         "Note": "game dev",
         "Completed": false
       },
       {
-        "Name": "c#",
-        "URL": "https://www.coursera.org/specializations/programming-unity-game-development",
+        "Name": "x86_64 asm",
+        "URL": "NA",
+        "Priority": 7,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "asm adventures",
+        "URL": "https://udemy.com",
+        "Priority": 7,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "expert python",
+        "URL": "NA",
         "Priority": 8,
-        "Note": "game dev",
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "pc asm",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "arm asm",
+        "URL": "udemy.com",
+        "Priority": 8,
+        "Note": "udemy assembly course",
+        "Completed": false
+      },
+      {
+        "Name": "embedded systems programming",
+        "URL": "udemy.com",
+        "Priority": 8,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "c",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "book",
+        "Completed": false
+      },
+      {
+        "Name": "blackhat python",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
         "Completed": false
       },
       {
@@ -100,10 +296,24 @@
         "Completed": false
       },
       {
-        "Name": "c",
+        "Name": "ruby process",
         "URL": "NA",
         "Priority": 8,
-        "Note": "book",
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "ruby threads",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "c#",
+        "URL": "https://www.coursera.org/specializations/programming-unity-game-development",
+        "Priority": 8,
+        "Note": "game dev",
         "Completed": false
       },
       {
@@ -148,6 +358,13 @@
         "Completed": false
       },
       {
+        "Name": "algebra-jh",
+        "URL": "https://www.coursera.org/specializations/algebra-elementary-to-advanced",
+        "Priority": 5,
+        "Note": "johns hopkins algebra coursera",
+        "Completed": true
+      },
+      {
         "Name": "int calc",
         "URL": "https://www.coursera.org/specializations/integral-calculus-data-modeling",
         "Priority": 6,
@@ -174,16 +391,9 @@
         "Priority": 6,
         "Note": "diff calc jh",
         "Completed": false
-      },
-      {
-        "Name": "algebra-jh",
-        "URL": "https://www.coursera.org/specializations/algebra-elementary-to-advanced",
-        "Priority": 5,
-        "Note": "johns hopkins algebra coursera",
-        "Completed": true
       }
     ],
-    "SortBy": "completed"
+    "SortBy": "priority"
   },
   {
     "Name": "ai",
@@ -193,6 +403,20 @@
         "URL": "https://www.coursera.org/specializations/ibm-generative-ai-engineering",
         "Priority": 5,
         "Note": "ibm professional cert",
+        "Completed": false
+      },
+      {
+        "Name": "gen ai bootcamp",
+        "URL": "youtube.com",
+        "Priority": 5,
+        "Note": "freecodecamp ai course",
+        "Completed": false
+      },
+      {
+        "Name": "ai foundations",
+        "URL": "youtube.com",
+        "Priority": 5,
+        "Note": "freecodecamp",
         "Completed": false
       }
     ],
@@ -228,6 +452,20 @@
         "Priority": 9,
         "Note": "book",
         "Completed": false
+      },
+      {
+        "Name": "algo \u0026 ds",
+        "URL": "youtube.com",
+        "Priority": 5,
+        "Note": "freecodecamp course",
+        "Completed": false
+      },
+      {
+        "Name": "python algo ds",
+        "URL": "youtube.com",
+        "Priority": 5,
+        "Note": "freecodecamp course",
+        "Completed": false
       }
     ],
     "SortBy": ""
@@ -236,10 +474,10 @@
     "Name": "security",
     "Tasks": [
       {
-        "Name": "adv design",
-        "URL": "https://www.coursera.org/specializations/advanced-system-security-design",
-        "Priority": 4,
-        "Note": "advanced system sec design",
+        "Name": "forensics",
+        "URL": "https://www.coursera.org/specializations/computerforensics",
+        "Priority": 2,
+        "Note": "coursera security course",
         "Completed": false
       },
       {
@@ -250,21 +488,168 @@
         "Completed": false
       },
       {
-        "Name": "forensics",
-        "URL": "https://www.coursera.org/specializations/computerforensics",
-        "Priority": 2,
-        "Note": "coursera security course",
+        "Name": "adv design",
+        "URL": "https://www.coursera.org/specializations/advanced-system-security-design",
+        "Priority": 4,
+        "Note": "advanced system sec design",
         "Completed": false
       },
       {
-        "Name": "art of mem",
+        "Name": "red teamming",
+        "URL": "udemy.com",
+        "Priority": 5,
+        "Note": "sec course udemy",
+        "Completed": false
+      },
+      {
+        "Name": "mal analysis intro",
+        "URL": "udemy.com",
+        "Priority": 5,
+        "Note": "intro course",
+        "Completed": false
+      },
+      {
+        "Name": "re ghidra ida",
+        "URL": "udemy.com",
+        "Priority": 5,
+        "Note": "course on udemy",
+        "Completed": false
+      },
+      {
+        "Name": "re ghidra",
+        "URL": "udemy.com",
+        "Priority": 5,
+        "Note": "ghidra course udemy",
+        "Completed": false
+      },
+      {
+        "Name": "mal analysis int",
+        "URL": "udemy.com",
+        "Priority": 6,
+        "Note": "intermediate course",
+        "Completed": false
+      },
+      {
+        "Name": "mal cookbook",
         "URL": "NA",
-        "Priority": 9,
+        "Priority": 7,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "pma",
+        "URL": "NA",
+        "Priority": 7,
         "Note": "book",
         "Completed": false
       },
       {
-        "Name": "rootkit",
+        "Name": "re exploit dev",
+        "URL": "udemy.com",
+        "Priority": 7,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "saumil os",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "saumil debug",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "saumil rop",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "unix linux admin",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "saumil func",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "zd RE",
+        "URL": "udemy.com",
+        "Priority": 8,
+        "Note": "udemy re course",
+        "Completed": false
+      },
+      {
+        "Name": "rootkits",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "hacker playbook",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "crypt \u0026 NS",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "gray hat",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "corelan primer",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "mal code re",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "hacking art",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "mal forensics",
+        "URL": "nA",
+        "Priority": 9,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "reversing",
         "URL": "NA",
         "Priority": 9,
         "Note": "book",
@@ -278,21 +663,21 @@
         "Completed": false
       },
       {
-        "Name": "reversing",
+        "Name": "rootkit",
         "URL": "NA",
         "Priority": 9,
         "Note": "book",
         "Completed": false
       },
       {
-        "Name": "pma",
+        "Name": "art of mem",
         "URL": "NA",
-        "Priority": 7,
+        "Priority": 9,
         "Note": "book",
         "Completed": false
       }
     ],
-    "SortBy": ""
+    "SortBy": "priority"
   },
   {
     "Name": "random",
@@ -406,6 +791,58 @@
         "URL": "https://graceful.dev/garden-paths/",
         "Priority": 9,
         "Note": "after tour is complete",
+        "Completed": false
+      }
+    ],
+    "SortBy": ""
+  },
+  {
+    "Name": "comp programming",
+    "Tasks": [
+      {
+        "Name": "codeforces",
+        "URL": "https://codeforces.com/",
+        "Priority": 5,
+        "Note": "rating:",
+        "Completed": false
+      },
+      {
+        "Name": "leetcode",
+        "URL": "https://leetcode.com/",
+        "Priority": 5,
+        "Note": "rating:",
+        "Completed": false
+      },
+      {
+        "Name": "codechef",
+        "URL": "https://www.codechef.com/contests",
+        "Priority": 6,
+        "Note": "rating:",
+        "Completed": false
+      }
+    ],
+    "SortBy": ""
+  },
+  {
+    "Name": "projects",
+    "Tasks": null,
+    "SortBy": ""
+  },
+  {
+    "Name": "certification",
+    "Tasks": [
+      {
+        "Name": "full stack dev",
+        "URL": "https://www.freecodecamp.org/learn/full-stack-developer",
+        "Priority": 6,
+        "Note": "afer coursera courses",
+        "Completed": false
+      },
+      {
+        "Name": "OSCP",
+        "URL": "oscp",
+        "Priority": 5,
+        "Note": "continue after paid for courses",
         "Completed": false
       }
     ],
