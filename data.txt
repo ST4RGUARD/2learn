@@ -803,21 +803,49 @@
         "Name": "codeforces",
         "URL": "https://codeforces.com/",
         "Priority": 5,
-        "Note": "rating:",
+        "Note": "rust - rating:",
         "Completed": false
       },
       {
         "Name": "leetcode",
         "URL": "https://leetcode.com/",
         "Priority": 5,
-        "Note": "rating:",
+        "Note": "ruby - rating:",
         "Completed": false
       },
       {
         "Name": "codechef",
         "URL": "https://www.codechef.com/contests",
         "Priority": 6,
-        "Note": "rating:",
+        "Note": "c - rating:",
+        "Completed": false
+      },
+      {
+        "Name": "hackerearth",
+        "URL": "https://www.hackerearth.com/",
+        "Priority": 8,
+        "Note": "c++ - rating:",
+        "Completed": false
+      },
+      {
+        "Name": "hackerrank",
+        "URL": "https://www.hackerrank.com/contests",
+        "Priority": 7,
+        "Note": "python - rating:",
+        "Completed": false
+      },
+      {
+        "Name": "spoj",
+        "URL": "https://www.spoj.com",
+        "Priority": 7,
+        "Note": "go - rating:",
+        "Completed": false
+      },
+      {
+        "Name": "atcoder",
+        "URL": "https://atcoder.jp/",
+        "Priority": 9,
+        "Note": "javascript - rating:",
         "Completed": false
       }
     ],
@@ -831,6 +859,20 @@
         "URL": "app.codecrafters.io",
         "Priority": 6,
         "Note": "paid projects after many courses are completed",
+        "Completed": false
+      },
+      {
+        "Name": "full stack RoR",
+        "URL": "https://www.theodinproject.com/paths/full-stack-ruby-on-rails",
+        "Priority": 8,
+        "Note": "free full stack do this",
+        "Completed": false
+      },
+      {
+        "Name": "build own X",
+        "URL": "https://github.com/codecrafters-io/build-your-own-x",
+        "Priority": 7,
+        "Note": "many great project ideas",
         "Completed": false
       }
     ],
