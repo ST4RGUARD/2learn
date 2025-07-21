@@ -825,7 +825,15 @@
   },
   {
     "Name": "projects",
-    "Tasks": null,
+    "Tasks": [
+      {
+        "Name": "git",
+        "URL": "app.codecrafters.io",
+        "Priority": 6,
+        "Note": "paid projects after many courses are completed",
+        "Completed": false
+      }
+    ],
     "SortBy": ""
   },
   {
