@@ -37,20 +37,6 @@
         "Completed": false
       },
       {
-        "Name": "meta backend",
-        "URL": "https://www.coursera.org/professional-certificates/meta-back-end-developer",
-        "Priority": 4,
-        "Note": "professional cert",
-        "Completed": false
-      },
-      {
-        "Name": "rust masterclass",
-        "URL": "https://www.coursera.org/specializations/packt-rust-programming-masterclass-from-beginner-to-expert",
-        "Priority": 4,
-        "Note": "maybe decent maybe not",
-        "Completed": false
-      },
-      {
         "Name": "rust marathon",
         "URL": "youtube.com",
         "Priority": 4,
@@ -86,13 +72,6 @@
         "Completed": false
       },
       {
-        "Name": "adv c++",
-        "URL": "udemy.com",
-        "Priority": 5,
-        "Note": "udemy",
-        "Completed": false
-      },
-      {
         "Name": "mastering go",
         "URL": "udemy.com",
         "Priority": 5,
@@ -114,27 +93,6 @@
         "Completed": false
       },
       {
-        "Name": "c everybody",
-        "URL": "https://www.coursera.org/specializations/c-programming-for-everybody",
-        "Priority": 5,
-        "Note": "michigan specialization",
-        "Completed": false
-      },
-      {
-        "Name": "c++ beg-adv",
-        "URL": "youtube.com",
-        "Priority": 5,
-        "Note": "freecodecamp course",
-        "Completed": false
-      },
-      {
-        "Name": "c linux",
-        "URL": "https://www.coursera.org/specializations/c-programming-linux",
-        "Priority": 5,
-        "Note": "c in linux dartmouth",
-        "Completed": false
-      },
-      {
         "Name": "learn c",
         "URL": "youtube.com",
         "Priority": 5,
@@ -142,38 +100,10 @@
         "Completed": false
       },
       {
-        "Name": "c++ beg to exp",
-        "URL": "udemy.com",
-        "Priority": 5,
-        "Note": "udemy",
-        "Completed": false
-      },
-      {
         "Name": "react-meta",
         "URL": "https://www.coursera.org/specializations/meta-react-specialization",
         "Priority": 6,
         "Note": "meta react specialization",
-        "Completed": false
-      },
-      {
-        "Name": "c++ files",
-        "URL": "udemy.com",
-        "Priority": 6,
-        "Note": "udemy",
-        "Completed": false
-      },
-      {
-        "Name": "python for everybody",
-        "URL": "youtube.com",
-        "Priority": 6,
-        "Note": "freecodecamp",
-        "Completed": false
-      },
-      {
-        "Name": "adv c++",
-        "URL": "udemy.com",
-        "Priority": 6,
-        "Note": "udem",
         "Completed": false
       },
       {
@@ -223,13 +153,6 @@
         "URL": "https://www.coursera.org/specializations/c-programming",
         "Priority": 7,
         "Note": "intro c duke",
-        "Completed": false
-      },
-      {
-        "Name": "c++",
-        "URL": "https://www.coursera.org/specializations/cplusplusunrealgamedevelopment",
-        "Priority": 7,
-        "Note": "game dev",
         "Completed": false
       },
       {
@@ -310,13 +233,6 @@
         "Completed": false
       },
       {
-        "Name": "c#",
-        "URL": "https://www.coursera.org/specializations/programming-unity-game-development",
-        "Priority": 8,
-        "Note": "game dev",
-        "Completed": false
-      },
-      {
         "Name": "gpu",
         "URL": "https://www.coursera.org/specializations/gpu-programming",
         "Priority": 9,
@@ -344,20 +260,6 @@
         "Completed": false
       },
       {
-        "Name": "statistics",
-        "URL": "https://www.coursera.org/specializations/advanced-statistics-data-science",
-        "Priority": 3,
-        "Note": "adv stat for data science jh",
-        "Completed": false
-      },
-      {
-        "Name": "linear alg",
-        "URL": "https://www.coursera.org/specializations/linear-algebra-elementary-to-advanced",
-        "Priority": 5,
-        "Note": "jh linear algebra",
-        "Completed": false
-      },
-      {
         "Name": "algebra-jh",
         "URL": "https://www.coursera.org/specializations/algebra-elementary-to-advanced",
         "Priority": 5,
@@ -365,31 +267,10 @@
         "Completed": true
       },
       {
-        "Name": "int calc",
-        "URL": "https://www.coursera.org/specializations/integral-calculus-data-modeling",
-        "Priority": 6,
-        "Note": "jh math specialization",
-        "Completed": false
-      },
-      {
         "Name": "math 4 eng",
         "URL": "https://www.coursera.org/specializations/mathematics-engineers",
         "Priority": 6,
         "Note": "difficult wait until others are completed first",
-        "Completed": false
-      },
-      {
-        "Name": "precalc",
-        "URL": "https://www.coursera.org/specializations/precalculus-data-modelling",
-        "Priority": 6,
-        "Note": "jh precalc data and modeling",
-        "Completed": false
-      },
-      {
-        "Name": "diff calc",
-        "URL": "https://www.coursera.org/specializations/differential-calculus-data-modeling",
-        "Priority": 6,
-        "Note": "diff calc jh",
         "Completed": false
       }
     ],
@@ -473,13 +354,6 @@
   {
     "Name": "security",
     "Tasks": [
-      {
-        "Name": "forensics",
-        "URL": "https://www.coursera.org/specializations/computerforensics",
-        "Priority": 2,
-        "Note": "coursera security course",
-        "Completed": false
-      },
       {
         "Name": "app crypt",
         "URL": "https://www.coursera.org/specializations/applied-crypto",
@@ -707,7 +581,7 @@
         "URL": "https://graceful.dev/garden-tours/",
         "Priority": 3,
         "Note": "first ruby course on site",
-        "Completed": false
+        "Completed": true
       },
       {
         "Name": "scintilating",
