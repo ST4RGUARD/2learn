@@ -100,10 +100,10 @@
         "Completed": false
       },
       {
-        "Name": "react-meta",
+        "Name": "meta fs",
         "URL": "https://www.coursera.org/specializations/meta-react-specialization",
         "Priority": 6,
-        "Note": "meta react specialization",
+        "Note": "full stack",
         "Completed": false
       },
       {
@@ -284,7 +284,7 @@
         "URL": "https://www.coursera.org/specializations/ibm-generative-ai-engineering",
         "Priority": 5,
         "Note": "ibm professional cert",
-        "Completed": false
+        "Completed": true
       },
       {
         "Name": "gen ai bootcamp",
@@ -336,13 +336,6 @@
       },
       {
         "Name": "algo \u0026 ds",
-        "URL": "youtube.com",
-        "Priority": 5,
-        "Note": "freecodecamp course",
-        "Completed": false
-      },
-      {
-        "Name": "python algo ds",
         "URL": "youtube.com",
         "Priority": 5,
         "Note": "freecodecamp course",
@@ -556,13 +549,6 @@
   {
     "Name": "random",
     "Tasks": [
-      {
-        "Name": "iot",
-        "URL": "https://www.coursera.org/specializations/uiuc-iot",
-        "Priority": 5,
-        "Note": "hands on iot",
-        "Completed": false
-      },
       {
         "Name": "embed linux",
         "URL": "https://www.coursera.org/specializations/advanced-embedded-linux-development",
