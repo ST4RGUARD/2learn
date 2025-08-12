@@ -114,13 +114,6 @@
         "Completed": false
       },
       {
-        "Name": "adv ruby",
-        "URL": "https://www.udemy.com/course/expert-ruby-programming-ten-steps-to-mastery/learn/lecture/54507#overview",
-        "Priority": 6,
-        "Note": "udemy",
-        "Completed": false
-      },
-      {
         "Name": "c step by step",
         "URL": "udemy.com",
         "Priority": 6,
@@ -149,13 +142,6 @@
         "Completed": false
       },
       {
-        "Name": "c",
-        "URL": "https://www.coursera.org/specializations/c-programming",
-        "Priority": 7,
-        "Note": "intro c duke",
-        "Completed": false
-      },
-      {
         "Name": "x86_64 asm",
         "URL": "NA",
         "Priority": 7,
@@ -170,24 +156,10 @@
         "Completed": false
       },
       {
-        "Name": "expert python",
-        "URL": "NA",
-        "Priority": 8,
-        "Note": "pdf book",
-        "Completed": false
-      },
-      {
-        "Name": "pc asm",
-        "URL": "NA",
-        "Priority": 8,
-        "Note": "pdf book",
-        "Completed": false
-      },
-      {
-        "Name": "arm asm",
-        "URL": "udemy.com",
-        "Priority": 8,
-        "Note": "udemy assembly course",
+        "Name": "rails",
+        "URL": "https://pragmaticstudio.com/",
+        "Priority": 7,
+        "Note": "rails hotwire",
         "Completed": false
       },
       {
@@ -198,17 +170,17 @@
         "Completed": false
       },
       {
+        "Name": "arm asm",
+        "URL": "udemy.com",
+        "Priority": 8,
+        "Note": "udemy assembly course",
+        "Completed": false
+      },
+      {
         "Name": "c",
         "URL": "NA",
         "Priority": 8,
         "Note": "book",
-        "Completed": false
-      },
-      {
-        "Name": "blackhat python",
-        "URL": "NA",
-        "Priority": 8,
-        "Note": "pdf book",
         "Completed": false
       },
       {
@@ -227,6 +199,13 @@
       },
       {
         "Name": "ruby threads",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "pc asm",
         "URL": "NA",
         "Priority": 8,
         "Note": "pdf book",
