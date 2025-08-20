@@ -23,17 +23,17 @@
     "Name": "coding",
     "Tasks": [
       {
-        "Name": "rust-duke",
-        "URL": "https://www.coursera.org/specializations/rust-programming",
-        "Priority": 1,
-        "Note": "duke rust course",
+        "Name": "guide to asm",
+        "URL": "NA",
+        "Priority": 7,
+        "Note": "pdf book",
         "Completed": false
       },
       {
-        "Name": "learn rust",
-        "URL": "https://www.udemy.com/course/learn-to-code-with-rust/",
-        "Priority": 4,
-        "Note": "udemy",
+        "Name": "c",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "book",
         "Completed": false
       },
       {
@@ -79,11 +79,11 @@
         "Completed": false
       },
       {
-        "Name": "go-uci",
-        "URL": "https://www.coursera.org/specializations/google-golang",
-        "Priority": 5,
-        "Note": "programming go course",
-        "Completed": true
+        "Name": "asm",
+        "URL": "NA",
+        "Priority": 9,
+        "Note": "book",
+        "Completed": false
       },
       {
         "Name": "go dev guide",
@@ -100,10 +100,10 @@
         "Completed": false
       },
       {
-        "Name": "meta fs",
-        "URL": "https://www.coursera.org/specializations/meta-react-specialization",
-        "Priority": 6,
-        "Note": "full stack",
+        "Name": "gpu",
+        "URL": "https://www.coursera.org/specializations/gpu-programming",
+        "Priority": 9,
+        "Note": "gpu programming",
         "Completed": false
       },
       {
@@ -121,24 +121,24 @@
         "Completed": false
       },
       {
-        "Name": "guide to asm",
-        "URL": "NA",
-        "Priority": 7,
-        "Note": "pdf book",
-        "Completed": false
-      },
-      {
-        "Name": "c++",
-        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
-        "Priority": 7,
-        "Note": "c++ programming oop",
-        "Completed": false
-      },
-      {
-        "Name": "c for beg",
-        "URL": "udemy.com",
-        "Priority": 7,
+        "Name": "learn rust",
+        "URL": "https://www.udemy.com/course/learn-to-code-with-rust/",
+        "Priority": 4,
         "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "rails",
+        "URL": "https://pragmaticstudio.com/",
+        "Priority": 7,
+        "Note": "rails hotwire",
+        "Completed": false
+      },
+      {
+        "Name": "rust-duke",
+        "URL": "https://www.coursera.org/specializations/rust-programming",
+        "Priority": 1,
+        "Note": "duke rust course",
         "Completed": false
       },
       {
@@ -156,10 +156,10 @@
         "Completed": false
       },
       {
-        "Name": "rails",
-        "URL": "https://pragmaticstudio.com/",
+        "Name": "c++",
+        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
         "Priority": 7,
-        "Note": "rails hotwire",
+        "Note": "c++ programming oop",
         "Completed": false
       },
       {
@@ -177,10 +177,10 @@
         "Completed": false
       },
       {
-        "Name": "c",
-        "URL": "NA",
-        "Priority": 8,
-        "Note": "book",
+        "Name": "c for beg",
+        "URL": "udemy.com",
+        "Priority": 7,
+        "Note": "udemy",
         "Completed": false
       },
       {
@@ -212,21 +212,21 @@
         "Completed": false
       },
       {
-        "Name": "gpu",
-        "URL": "https://www.coursera.org/specializations/gpu-programming",
-        "Priority": 9,
-        "Note": "gpu programming",
-        "Completed": false
+        "Name": "meta fs",
+        "URL": "https://www.coursera.org/specializations/meta-react-specialization",
+        "Priority": 6,
+        "Note": "full stack",
+        "Completed": true
       },
       {
-        "Name": "asm",
-        "URL": "NA",
-        "Priority": 9,
-        "Note": "book",
-        "Completed": false
+        "Name": "go-uci",
+        "URL": "https://www.coursera.org/specializations/google-golang",
+        "Priority": 5,
+        "Note": "programming go course",
+        "Completed": true
       }
     ],
-    "SortBy": "priority"
+    "SortBy": "completed"
   },
   {
     "Name": "math",
@@ -326,20 +326,6 @@
   {
     "Name": "security",
     "Tasks": [
-      {
-        "Name": "app crypt",
-        "URL": "https://www.coursera.org/specializations/applied-crypto",
-        "Priority": 3,
-        "Note": "security and cs",
-        "Completed": false
-      },
-      {
-        "Name": "adv design",
-        "URL": "https://www.coursera.org/specializations/advanced-system-security-design",
-        "Priority": 4,
-        "Note": "advanced system sec design",
-        "Completed": false
-      },
       {
         "Name": "red teamming",
         "URL": "udemy.com",
