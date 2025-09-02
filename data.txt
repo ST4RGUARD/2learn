@@ -532,7 +532,7 @@
         "URL": "https://graceful.dev/garden-tours/",
         "Priority": 4,
         "Note": "cont",
-        "Completed": false
+        "Completed": true
       },
       {
         "Name": "strung",
