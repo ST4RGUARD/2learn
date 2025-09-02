@@ -232,13 +232,6 @@
     "Name": "math",
     "Tasks": [
       {
-        "Name": "discrete",
-        "URL": "https://www.coursera.org/specializations/discrete-mathematics",
-        "Priority": 3,
-        "Note": "for cs specialization",
-        "Completed": false
-      },
-      {
         "Name": "algebra-jh",
         "URL": "https://www.coursera.org/specializations/algebra-elementary-to-advanced",
         "Priority": 5,
