@@ -23,17 +23,17 @@
     "Name": "coding",
     "Tasks": [
       {
-        "Name": "guide to asm",
-        "URL": "NA",
-        "Priority": 7,
-        "Note": "pdf book",
+        "Name": "learn rust",
+        "URL": "https://www.udemy.com/course/learn-to-code-with-rust/",
+        "Priority": 4,
+        "Note": "udemy",
         "Completed": false
       },
       {
-        "Name": "c",
-        "URL": "NA",
-        "Priority": 8,
-        "Note": "book",
+        "Name": "c++",
+        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
+        "Priority": 7,
+        "Note": "c++ programming oop",
         "Completed": false
       },
       {
@@ -121,24 +121,24 @@
         "Completed": false
       },
       {
-        "Name": "learn rust",
-        "URL": "https://www.udemy.com/course/learn-to-code-with-rust/",
-        "Priority": 4,
-        "Note": "udemy",
+        "Name": "c",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "book",
         "Completed": false
       },
       {
-        "Name": "rails",
-        "URL": "https://pragmaticstudio.com/",
+        "Name": "pc asm",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "guide to asm",
+        "URL": "NA",
         "Priority": 7,
-        "Note": "rails hotwire",
-        "Completed": false
-      },
-      {
-        "Name": "rust-duke",
-        "URL": "https://www.coursera.org/specializations/rust-programming",
-        "Priority": 1,
-        "Note": "duke rust course",
+        "Note": "pdf book",
         "Completed": false
       },
       {
@@ -156,10 +156,10 @@
         "Completed": false
       },
       {
-        "Name": "c++",
-        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
+        "Name": "rails",
+        "URL": "https://pragmaticstudio.com/",
         "Priority": 7,
-        "Note": "c++ programming oop",
+        "Note": "rails hotwire",
         "Completed": false
       },
       {
@@ -205,11 +205,11 @@
         "Completed": false
       },
       {
-        "Name": "pc asm",
-        "URL": "NA",
-        "Priority": 8,
-        "Note": "pdf book",
-        "Completed": false
+        "Name": "rust-duke",
+        "URL": "https://www.coursera.org/specializations/rust-programming",
+        "Priority": 1,
+        "Note": "duke rust course",
+        "Completed": true
       },
       {
         "Name": "meta fs",
