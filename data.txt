@@ -100,13 +100,6 @@
         "Completed": false
       },
       {
-        "Name": "gpu",
-        "URL": "https://www.coursera.org/specializations/gpu-programming",
-        "Priority": 9,
-        "Note": "gpu programming",
-        "Completed": false
-      },
-      {
         "Name": "crust of rust",
         "URL": "youtube.com",
         "Priority": 6,
@@ -294,13 +287,6 @@
       },
       {
         "Name": "c ds",
-        "URL": "NA",
-        "Priority": 9,
-        "Note": "book",
-        "Completed": false
-      },
-      {
-        "Name": "c++ ds",
         "URL": "NA",
         "Priority": 9,
         "Note": "book",
@@ -636,34 +622,6 @@
         "URL": "https://www.codechef.com/contests",
         "Priority": 6,
         "Note": "c - rating:",
-        "Completed": false
-      },
-      {
-        "Name": "hackerearth",
-        "URL": "https://www.hackerearth.com/",
-        "Priority": 8,
-        "Note": "c++ - rating:",
-        "Completed": false
-      },
-      {
-        "Name": "hackerrank",
-        "URL": "https://www.hackerrank.com/contests",
-        "Priority": 7,
-        "Note": "python - rating:",
-        "Completed": false
-      },
-      {
-        "Name": "spoj",
-        "URL": "https://www.spoj.com",
-        "Priority": 7,
-        "Note": "go - rating:",
-        "Completed": false
-      },
-      {
-        "Name": "atcoder",
-        "URL": "https://atcoder.jp/",
-        "Priority": 9,
-        "Note": "javascript - rating:",
         "Completed": false
       }
     ],
