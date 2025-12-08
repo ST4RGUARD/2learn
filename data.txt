@@ -149,13 +149,6 @@
         "Completed": false
       },
       {
-        "Name": "rails",
-        "URL": "https://pragmaticstudio.com/",
-        "Priority": 7,
-        "Note": "rails hotwire",
-        "Completed": false
-      },
-      {
         "Name": "embedded systems programming",
         "URL": "udemy.com",
         "Priority": 8,
