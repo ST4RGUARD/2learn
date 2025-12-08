@@ -272,13 +272,6 @@
         "Completed": false
       },
       {
-        "Name": "foundations",
-        "URL": "https://www.coursera.org/specializations/boulder-data-structures-algorithms",
-        "Priority": 4,
-        "Note": "foundations of ds and algo",
-        "Completed": false
-      },
-      {
         "Name": "c ds",
         "URL": "NA",
         "Priority": 9,
