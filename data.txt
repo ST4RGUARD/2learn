@@ -23,17 +23,17 @@
     "Name": "coding",
     "Tasks": [
       {
-        "Name": "learn rust",
-        "URL": "https://www.udemy.com/course/learn-to-code-with-rust/",
-        "Priority": 4,
-        "Note": "udemy",
+        "Name": "pc asm",
+        "URL": "NA",
+        "Priority": 8,
+        "Note": "pdf book",
         "Completed": false
       },
       {
-        "Name": "c++",
-        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
-        "Priority": 7,
-        "Note": "c++ programming oop",
+        "Name": "arm asm",
+        "URL": "udemy.com",
+        "Priority": 8,
+        "Note": "udemy assembly course",
         "Completed": false
       },
       {
@@ -121,17 +121,10 @@
         "Completed": false
       },
       {
-        "Name": "pc asm",
-        "URL": "NA",
-        "Priority": 8,
-        "Note": "pdf book",
-        "Completed": false
-      },
-      {
-        "Name": "guide to asm",
-        "URL": "NA",
+        "Name": "c++",
+        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
         "Priority": 7,
-        "Note": "pdf book",
+        "Note": "c++ programming oop",
         "Completed": false
       },
       {
@@ -139,6 +132,13 @@
         "URL": "NA",
         "Priority": 7,
         "Note": "pdf book",
+        "Completed": false
+      },
+      {
+        "Name": "learn rust",
+        "URL": "https://www.udemy.com/course/learn-to-code-with-rust/",
+        "Priority": 4,
+        "Note": "udemy",
         "Completed": false
       },
       {
@@ -156,10 +156,10 @@
         "Completed": false
       },
       {
-        "Name": "arm asm",
-        "URL": "udemy.com",
-        "Priority": 8,
-        "Note": "udemy assembly course",
+        "Name": "guide to asm",
+        "URL": "NA",
+        "Priority": 7,
+        "Note": "pdf book",
         "Completed": false
       },
       {
@@ -191,10 +191,17 @@
         "Completed": false
       },
       {
-        "Name": "rust-duke",
-        "URL": "https://www.coursera.org/specializations/rust-programming",
-        "Priority": 1,
-        "Note": "duke rust course",
+        "Name": "rust webasm",
+        "URL": "https://www.udemy.com/course/rust-webassembly-with-js-ts-the-practical-guide/learn/lecture/29735156?start=0#overview",
+        "Priority": 2,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "go-uci",
+        "URL": "https://www.coursera.org/specializations/google-golang",
+        "Priority": 5,
+        "Note": "programming go course",
         "Completed": true
       },
       {
@@ -205,10 +212,10 @@
         "Completed": true
       },
       {
-        "Name": "go-uci",
-        "URL": "https://www.coursera.org/specializations/google-golang",
-        "Priority": 5,
-        "Note": "programming go course",
+        "Name": "rust-duke",
+        "URL": "https://www.coursera.org/specializations/rust-programming",
+        "Priority": 1,
+        "Note": "duke rust course",
         "Completed": true
       }
     ],
@@ -256,6 +263,69 @@
         "URL": "youtube.com",
         "Priority": 5,
         "Note": "freecodecamp",
+        "Completed": false
+      },
+      {
+        "Name": "ai agent dev",
+        "URL": "https://www.coursera.org/specializations/ai-agents",
+        "Priority": 2,
+        "Note": "coursera",
+        "Completed": false
+      },
+      {
+        "Name": "ms ai \u0026 ml",
+        "URL": "https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering",
+        "Priority": 3,
+        "Note": "coursera",
+        "Completed": false
+      },
+      {
+        "Name": "mcp mastery",
+        "URL": "https://www.coursera.org/learn/model-context-protocol-mcp-mastery",
+        "Priority": 3,
+        "Note": "coursera",
+        "Completed": false
+      },
+      {
+        "Name": "mcp adv topics",
+        "URL": "https://www.coursera.org/learn/model-context-protocol-advanced-topics",
+        "Priority": 3,
+        "Note": "coursera",
+        "Completed": false
+      },
+      {
+        "Name": "ibm rag and agentic ai",
+        "URL": "https://www.coursera.org/professional-certificates/ibm-rag-and-agentic-ai",
+        "Priority": 2,
+        "Note": "professional cert coursera",
+        "Completed": false
+      },
+      {
+        "Name": "mastering claude",
+        "URL": "https://www.coursera.org/specializations/mastering-claude-ai-prompting-apis-rag-and-mcp",
+        "Priority": 3,
+        "Note": "coursera",
+        "Completed": false
+      },
+      {
+        "Name": "llmops",
+        "URL": "https://www.coursera.org/specializations/large-language-model-operations",
+        "Priority": 1,
+        "Note": "coursera",
+        "Completed": false
+      },
+      {
+        "Name": "ai \u0026 ml go",
+        "URL": "https://www.udemy.com/course/introduction-to-ai-and-machine-learning-with-go-golang/learn/lecture/48801797?start=0#overview",
+        "Priority": 3,
+        "Note": "udemy",
+        "Completed": false
+      },
+      {
+        "Name": "ai engineer",
+        "URL": "https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/learn/lecture/52932165?start=0#overview",
+        "Priority": 2,
+        "Note": "udemy",
         "Completed": false
       }
     ],
