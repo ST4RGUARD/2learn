@@ -23,17 +23,17 @@
     "Name": "coding",
     "Tasks": [
       {
-        "Name": "pc asm",
+        "Name": "x86_64 asm",
         "URL": "NA",
-        "Priority": 8,
+        "Priority": 7,
         "Note": "pdf book",
         "Completed": false
       },
       {
-        "Name": "arm asm",
-        "URL": "udemy.com",
-        "Priority": 8,
-        "Note": "udemy assembly course",
+        "Name": "learn rust",
+        "URL": "https://www.udemy.com/course/learn-to-code-with-rust/",
+        "Priority": 4,
+        "Note": "udemy",
         "Completed": false
       },
       {
@@ -51,24 +51,10 @@
         "Completed": false
       },
       {
-        "Name": "learn go",
-        "URL": "youtube.com",
-        "Priority": 4,
-        "Note": "fcc course",
-        "Completed": false
-      },
-      {
         "Name": "learn rust",
         "URL": "youtube.com",
         "Priority": 4,
         "Note": "freecodecamp full rust course",
-        "Completed": false
-      },
-      {
-        "Name": "go web dev",
-        "URL": "udemy.com",
-        "Priority": 5,
-        "Note": "udemy todd mcleod",
         "Completed": false
       },
       {
@@ -93,13 +79,6 @@
         "Completed": false
       },
       {
-        "Name": "learn c",
-        "URL": "youtube.com",
-        "Priority": 5,
-        "Note": "fcc course",
-        "Completed": false
-      },
-      {
         "Name": "crust of rust",
         "URL": "youtube.com",
         "Priority": 6,
@@ -107,44 +86,30 @@
         "Completed": false
       },
       {
-        "Name": "c step by step",
-        "URL": "udemy.com",
-        "Priority": 6,
+        "Name": "asm adventures",
+        "URL": "https://udemy.com",
+        "Priority": 7,
         "Note": "udemy",
         "Completed": false
       },
       {
-        "Name": "c",
+        "Name": "arm asm",
+        "URL": "udemy.com",
+        "Priority": 8,
+        "Note": "udemy assembly course",
+        "Completed": false
+      },
+      {
+        "Name": "pc asm",
         "URL": "NA",
         "Priority": 8,
-        "Note": "book",
-        "Completed": false
-      },
-      {
-        "Name": "c++",
-        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
-        "Priority": 7,
-        "Note": "c++ programming oop",
-        "Completed": false
-      },
-      {
-        "Name": "x86_64 asm",
-        "URL": "NA",
-        "Priority": 7,
         "Note": "pdf book",
         "Completed": false
       },
       {
-        "Name": "learn rust",
-        "URL": "https://www.udemy.com/course/learn-to-code-with-rust/",
-        "Priority": 4,
-        "Note": "udemy",
-        "Completed": false
-      },
-      {
-        "Name": "asm adventures",
-        "URL": "https://udemy.com",
-        "Priority": 7,
+        "Name": "rust webasm",
+        "URL": "https://www.udemy.com/course/rust-webassembly-with-js-ts-the-practical-guide/learn/lecture/29735156?start=0#overview",
+        "Priority": 2,
         "Note": "udemy",
         "Completed": false
       },
@@ -160,13 +125,6 @@
         "URL": "NA",
         "Priority": 7,
         "Note": "pdf book",
-        "Completed": false
-      },
-      {
-        "Name": "c for beg",
-        "URL": "udemy.com",
-        "Priority": 7,
-        "Note": "udemy",
         "Completed": false
       },
       {
@@ -191,11 +149,11 @@
         "Completed": false
       },
       {
-        "Name": "rust webasm",
-        "URL": "https://www.udemy.com/course/rust-webassembly-with-js-ts-the-practical-guide/learn/lecture/29735156?start=0#overview",
-        "Priority": 2,
-        "Note": "udemy",
-        "Completed": false
+        "Name": "c++",
+        "URL": "https://www.coursera.org/specializations/object-oriented-programming-s12n",
+        "Priority": 7,
+        "Note": "c++ programming oop",
+        "Completed": true
       },
       {
         "Name": "go-uci",
