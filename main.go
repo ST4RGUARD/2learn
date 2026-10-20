@@ -29,7 +29,7 @@ var (
 	catFolded  []bool
 )
 
-const dataFile = "/Users/jarjohns/git/2learn/data.txt"
+const dataFile = "/Users/jarjohns/git/ST4RGUARD/2learn/data.txt"
 
 func main() {
 	loadData()

@@ -17,7 +17,7 @@
         "Completed": false
       }
     ],
-    "SortBy": ""
+    "SortBy": "completed"
   },
   {
     "Name": "coding",
@@ -203,13 +203,6 @@
     "Name": "ai",
     "Tasks": [
       {
-        "Name": "ibm gen-ai",
-        "URL": "https://www.coursera.org/specializations/ibm-generative-ai-engineering",
-        "Priority": 5,
-        "Note": "ibm professional cert",
-        "Completed": true
-      },
-      {
         "Name": "gen ai bootcamp",
         "URL": "youtube.com",
         "Priority": 5,
@@ -231,48 +224,6 @@
         "Completed": false
       },
       {
-        "Name": "ms ai \u0026 ml",
-        "URL": "https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering",
-        "Priority": 3,
-        "Note": "coursera",
-        "Completed": false
-      },
-      {
-        "Name": "mcp mastery",
-        "URL": "https://www.coursera.org/learn/model-context-protocol-mcp-mastery",
-        "Priority": 3,
-        "Note": "coursera",
-        "Completed": false
-      },
-      {
-        "Name": "mcp adv topics",
-        "URL": "https://www.coursera.org/learn/model-context-protocol-advanced-topics",
-        "Priority": 3,
-        "Note": "coursera",
-        "Completed": false
-      },
-      {
-        "Name": "ibm rag and agentic ai",
-        "URL": "https://www.coursera.org/professional-certificates/ibm-rag-and-agentic-ai",
-        "Priority": 2,
-        "Note": "professional cert coursera",
-        "Completed": false
-      },
-      {
-        "Name": "mastering claude",
-        "URL": "https://www.coursera.org/specializations/mastering-claude-ai-prompting-apis-rag-and-mcp",
-        "Priority": 3,
-        "Note": "coursera",
-        "Completed": false
-      },
-      {
-        "Name": "llmops",
-        "URL": "https://www.coursera.org/specializations/large-language-model-operations",
-        "Priority": 1,
-        "Note": "coursera",
-        "Completed": false
-      },
-      {
         "Name": "ai \u0026 ml go",
         "URL": "https://www.udemy.com/course/introduction-to-ai-and-machine-learning-with-go-golang/learn/lecture/48801797?start=0#overview",
         "Priority": 3,
@@ -285,9 +236,23 @@
         "Priority": 2,
         "Note": "udemy",
         "Completed": false
+      },
+      {
+        "Name": "ibm gen-ai",
+        "URL": "https://www.coursera.org/specializations/ibm-generative-ai-engineering",
+        "Priority": 5,
+        "Note": "ibm professional cert",
+        "Completed": true
+      },
+      {
+        "Name": "llmops",
+        "URL": "https://www.coursera.org/specializations/large-language-model-operations",
+        "Priority": 1,
+        "Note": "coursera",
+        "Completed": true
       }
     ],
-    "SortBy": ""
+    "SortBy": "completed"
   },
   {
     "Name": "algorithms",
@@ -621,7 +586,7 @@
         "Name": "codeforces",
         "URL": "https://codeforces.com/",
         "Priority": 5,
-        "Note": "rust - rating:",
+        "Note": "rust - rating: 711",
         "Completed": false
       },
       {
@@ -649,20 +614,6 @@
         "URL": "app.codecrafters.io",
         "Priority": 6,
         "Note": "paid projects after many courses are completed",
-        "Completed": false
-      },
-      {
-        "Name": "full stack RoR",
-        "URL": "https://www.theodinproject.com/paths/full-stack-ruby-on-rails",
-        "Priority": 8,
-        "Note": "free full stack do this",
-        "Completed": false
-      },
-      {
-        "Name": "build own X",
-        "URL": "https://github.com/codecrafters-io/build-your-own-x",
-        "Priority": 7,
-        "Note": "many great project ideas",
         "Completed": false
       }
     ],
